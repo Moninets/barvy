@@ -1,0 +1,371 @@
+
+<!doctype html>
+<html class="no-js" lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barvy</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Muli:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- BEGAN HEADER -->
+    <header class="ba-header">
+        <div class="container ba-container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <nav class="ba-nav navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <a href="#">
+                                    <img src="assets/img/barvy_logo.png" alt="Барви">
+                                </a>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                        data-target="#primary-navigation" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="primary-navigation">
+                                <ul class="ba-nav__list nav navbar-nav">
+                                    <li class="ba-nav__item">
+                                        <a class="ba-nav__link" href="#Welcome">Головна</a>
+                                    </li>
+                                    <li class="ba-nav__item">
+                                        <a class="ba-nav__link" href="#Gallery">Галерея</a>
+                                    </li>
+                                    <li class="ba-nav__item">
+                                        <a class="ba-nav__link" href="#Reservations">Наша історія</a>
+                                    </li>
+                                    <li class="ba-nav__item">
+                                        <a class="ba-nav__link" href="#Teachers">Викладачі</a>
+                                    </li>
+                                    <li class="ba-nav__item">
+                                        <a class="ba-nav__link" href="#News">Новини</a>
+                                    </li>
+                                    <li class="ba-nav__item">
+                                        <a class="ba-nav__link" href="/contact.html">Контакти</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- AND HEADER -->
+    
+    <!-- BEGAN MAIN -->
+    
+    <!-- BEGAN BANNER -->
+    <video src="#"></video>
+    
+    <div ng-controller="WelcomeController">
+        
+    </div>
+    
+    <script src="angular.js"></script>
+    <script>
+        var app = angular.module('demo', [])
+            .controller('WelcomeController', function($scope) {
+                $scope.greeting = 'Welcome!';
+            });
+        angular.bootstrap(document, ['demo']);
+    </script>
+    <!-- AND BANNER -->
+    
+    <!-- BEGAN GALLERY -->
+    
+    <section class="ba-gallery" id="Gallery">
+        <div class="container">
+            <div class="row text-center">
+                <h2>Фотогалерея</h2>
+                <div class="col-md-4">
+                    <a href="practice.html">
+                        <img class="img-responsive" src="assets/img/dance.png" alt="Practice">
+                        <p>Практика</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="concerts.html">
+                        <img class="img-responsive" src="assets/img/dance.png" alt="Concert">
+                        <p>Концерти</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="recreation.html">
+                        <img class="img-responsive" src="assets/img/dance.png" alt="Rest">
+                        <p>Відпочинок</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- AND GALLERY -->
+    
+    <!-- BEGAN ABOUT US -->
+    
+    <section class="ba-about">
+    
+    </section>
+    
+    <!-- AND ABOUT US -->
+    
+    <!-- BEGAN TEACHERS -->
+    
+    <section class="ba-teacher">
+        <div class="container">
+            <div class="row">
+                <h2>Наші викладачі</h2>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="assets/img/dance.png" alt="Teacher">
+                            <h3>Булага Костянтин Миколайович</h3>
+                        </div>
+                        <div class="col-md-8">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae eos iure
+                                magnam
+                                rerum
+                                sint?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="assets/img/dance.png" alt="Teacher">
+                            <h3>Граб <br>Вікторія Анатоліївна</h3>
+                        </div>
+                        <div class="col-md-8">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae eos iure
+                                magnam
+                                rerum
+                                sint?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- AND TEACHERS -->
+    
+    <!-- BEGAN POST -->
+    
+    <section class="ba-post">
+        <div class="container">
+            <h2>Відгуки</h2>
+            <div class="row ba-slider" id="post-slider">
+                <div class="col-xs-12 ba-slide">
+                    <div class="row ba-slide__review">
+                        <div class="col-xs-4">
+                            <img src="assets/img/dance.png" alt="Dance">
+                        </div>
+                        <div class="col-xs-8">
+                            <h4>ПІБ</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur cum
+                                deserunt? Dignissimos earum eveniet exercitationem laboriosam nostrum numquam,
+                                sunt?</p>
+                        </div>
+                    </div>
+                    <div class="row ba-slide__review">
+                        <div class="col-xs-4">
+                            <img src="assets/img/dance.png" alt="Dance">
+                        </div>
+                        <div class="col-xs-8">
+                            <h4>ПІ</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur cum
+                                deserunt? Dignissimos earum eveniet exercitationem laboriosam nostrum numquam,
+                                sunt?</p>
+                        </div>
+                    </div>
+                    <div class="row ba-slide__review">
+                        <div class="col-xs-4">
+                            <img src="assets/img/dance.png" alt="Dance">
+                        </div>
+                        <div class="col-xs-8">
+                            <h4>ПІБ</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur cum
+                                deserunt? Dignissimos earum eveniet exercitationem laboriosam nostrum numquam,
+                                sunt?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 ba-slide">
+                    <div class="row ba-slide__review">
+                        <div class="col-xs-4">
+                            <img src="assets/img/dance.png" alt="Dance">
+                        </div>
+                        <div class="col-xs-8">
+                            <h4>ПІБ</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur cum
+                                deserunt? Dignissimos earum eveniet exercitationem laboriosam nostrum numquam,
+                                sunt?</p>
+                        </div>
+                    </div>
+                    <div class="row ba-slide__review">
+                        <div class="col-xs-4">
+                            <img src="assets/img/dance.png" alt="Dance">
+                        </div>
+                        <div class="col-xs-8">
+                            <h4>ПІБ</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur cum
+                                deserunt? Dignissimos earum eveniet exercitationem laboriosam nostrum numquam,
+                                sunt?</p>
+                        </div>
+                    </div>
+                    <div class="row ba-slide__review">
+                        <div class="col-xs-4">
+                            <img src="assets/img/dance.png" alt="Dance">
+                        </div>
+                        <div class="col-xs-8">
+                            <h4>ПІБ</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur cum
+                                deserunt? Dignissimos earum eveniet exercitationem laboriosam nostrum numquam,
+                                sunt?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ba-slider__controls">
+                    <button type="submit" class="btn btn-default ba-slider__arrow ba-slider__arrow--left">
+                        <i class="glyphicon glyphicon-menu-left"></i>
+                        Попередній
+                    </button>
+                    <button type="submit" class="btn btn-default ba-slider__arrow ba-slider__arrow--right">
+                        Наступний
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- AND POST -->
+    
+    <!-- BEGAN NEWS -->
+    <!-- AND NEWS -->
+    
+    <!-- BEGAN CONTACT -->
+    
+    <!--<section class="ba-contact">-->
+    <!--<div class="container ba-container">-->
+    <!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+    <!--<div class="map">-->
+    <!--<div class="ba-marker" data-lat="49.582747" data-lng="34.556388"></div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</section>-->
+    
+    <!-- AND CONTACT -->
+    
+    <section class="ba-logos" id="logos">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="ba-logos__wrapp">
+                        <img src="assets/img/logos.png" alt="Logos">
+                        <img src="assets/img/logos.png" alt="Logos">
+                        <img src="assets/img/logos.png" alt="Logos">
+                        <img src="assets/img/logos.png" alt="Logos">
+                        <img src="assets/img/logos.png" alt="Logos">
+                    </div>
+                    <div class="ba-slider" id="logos-slider">
+                        <div class="ba-slide">
+                            <img src="assets/img/logos.png" alt="Logos">
+                        </div>
+                        <div class="ba-slide">
+                            <img src="assets/img/logos.png" alt="Logos">
+                        </div>
+                        <div class="ba-slide">
+                            <img src="assets/img/logos.png" alt="Logos">
+                        </div>
+                        <div class="ba-slide">
+                            <img src="assets/img/logos.png" alt="Logos">
+                        </div>
+                        <div class="ba-slide">
+                            <img src="assets/img/logos.png" alt="Logos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- AND MAIN -->
+    <!-- BEGAN FOOTER-->
+    
+    <footer class="ba-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="assets/img/barvy_logo.png" alt="Барви">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <nav class="ba-nav">
+                        <ul class="ba-nav__list">
+                            <li class="ba-nav__item">
+                                <a class="ba-nav__link" href="#Welcome">Головна</a>
+                            </li>
+                            <li class="ba-nav__item">
+                                <a class="ba-nav__link" href="/gallery.html">Галерея</a>
+                            </li>
+                            <li class="ba-nav__item">
+                                <a class="ba-nav__link" href="#Reservations">Наша історія</a>
+                            </li>
+                            <li class="ba-nav__item">
+                                <a class="ba-nav__link" href="#Teachers">Викладачі</a>
+                            </li>
+                            <li class="ba-nav__item">
+                                <a class="ba-nav__link" href="#News">Новини</a>
+                            </li>
+                            <li class="ba-nav__item">
+                                <a class="ba-nav__link" href="/contact.html">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-2">
+                    <p>вул.Стрітенська,35</p>
+                    <p>(Комсомольская)</p>
+                    <p>м. Полтава, 36000</p>
+                </div>
+                <div class="col-md-2">
+                    <p>+380668079573</p>
+                    <a>tntbarvy@ukr.net</a>
+                    <div class="ba-socials">
+                        <ul class="ba-socials__list">
+                            <li class="ba-socials__item">
+                                <a class="ba-socials__link" href="#">Linkedin</a>
+                            </li>
+                            <li class="ba-socials__item">
+                                <a class="ba-socials__link" href="https://www.facebook.com/tntbarvy/">Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scrollup"><i class="glyphicon glyphicon-menu-up"></i></a>
+    <!-- AND FOOTER -->
+    
+    
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO_3F0KHcJZGW6IoQj7hbBdbGxGtzlZ54"></script>
+    <script src="https://use.fontawesome.com/220816ad9a.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
